@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rg_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_home_bg"
+            android:gravity="center"
+            android:text="首页"
+            android:checked="true"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:textColor="@drawable/selector_text"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_find"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:drawableTop="@drawable/selector_find_bg"
+            android:gravity="center"
+            android:text="发现"
+            android:textColor="@drawable/selector_text"
+            android:textSize="12sp" />
+
+    </RadioGroup>
+</layout>
